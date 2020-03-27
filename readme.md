@@ -1,2 +1,2 @@
 # Sixa Discord Bot
-Personal Bot for my DIscord
+Personal Bot for my Discord
