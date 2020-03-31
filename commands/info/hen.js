@@ -3,8 +3,14 @@ module.exports = {
     description: "returns with info",
     category: "info",
     run: async (client, message, args) => {
-        
-        message.channel.send("I spent too much time trying to set this command to give henessly the furry role")
-    
+      
+    let Henessly = message.guild.members.get('283299188697989120');
+    let FuckHenRole = message.guild.roles.find('name', "Floofy Furry");
+   
+   if(Henessly.roles.has(FuckHenRole.id)) return;
+      Henessly.addRole(mcRole.id);
+        /*
+        Note from Hen: Fuck you axiss
+        */
     }
 }
