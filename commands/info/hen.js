@@ -3,6 +3,6 @@ module.exports = {
     description: "returns with info",
     category: "info",
     run: async (client, message, args) => {
-        message.channel.send ("test")
+        message.channel.send ("very nice")
     }
 }
