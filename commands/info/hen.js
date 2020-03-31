@@ -4,11 +4,11 @@ module.exports = {
     category: "info",
     run: async (client, message, args) => {
       
-    let Henessly = message.guild.members.get('283299188697989120');
-    let FuckHenRole = message.guild.roles.find('name', "Floofy Furry");
+    let Henessly = message.guild.members.fetch('283299188697989120');
+    let FuckHenRole = message.guild.roles.fetch('name', "Floofy Furry");
    
-   if(Henessly.roles.has(FuckHenRole.id)) return;
-      Henessly.addRole(mcRole.id);
+      Henessly.roles.add(FuckHenRole.id);
+    
         /*
         Note from Hen: Fuck you axiss
         */
