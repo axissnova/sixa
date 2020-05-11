@@ -21,17 +21,16 @@ config({
     require(`./handlers/${handler}`)(client);
 });
 
+//Activity
 client.on("ready", () => {
-    console.log(`Hi, ${client.user.username} is now online!`);
+    client.user.setActivity("nothing", {
 
-    client.user.setPresence({
-        status: "online",
-        game: {
-            name: "me getting developed",
-            type: "WATCHING"
-        }
-    }); 
-})
+      type: "STREAMING",
+
+      url: "https://www.twitch.tv/axissnova"
+
+    });
+  });
 
 client.on("message", async message => {
     const prefix = "-";
