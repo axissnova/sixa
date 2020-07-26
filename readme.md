@@ -1,17 +1,4 @@
-# Sixa Discord Bot
+# Not Complete Sixa Discord Bot
 
-Personal Bot for my Discord,
+Personal Bot for my Discord, basically archived
 
-## Current Commands:
-
-```bash
-
--say,
--yo,
--ping
-
-```
-
-## Prefix:
-
-( - )
