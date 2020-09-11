@@ -14,7 +14,7 @@ module.exports = {
             return message.reply("You don't have the required permissions to use this command.").then(m => m.delete(5000));
 
         else {
-             message.channel.send(args.join(" "));
+            message.channel.send(args.join(" "));
          }
     }
 }
