@@ -8,8 +8,6 @@ module.exports = {
     run: (client, message, args) => {
         message.delete();
 
-        message.channel.send(args.join(" "));
-
         if (!message.member.hasPermission("ADMINISTRATOR"))
             return message.reply("You don't have the required permissions to use this command.").then(m => m.delete(5000));
 
