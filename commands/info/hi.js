@@ -6,3 +6,5 @@ module.exports = {
     message.channel.send('hi im dwayne the rock johnson!')
     }
 }
+
+//unfunny
