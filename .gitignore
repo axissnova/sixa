@@ -4,5 +4,5 @@
 #node modules
 node_modules/
 
-#ip
-commands/random_apps/socks.txt
+#ignore all txt files :)
+*.txt
