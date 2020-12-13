@@ -3,6 +3,6 @@ module.exports = {
     description: "help",
     category: "info",
     run: async (client, message, args) => {
-        message.channel.send('no')
+        message.channel.send('no');
     }
 }
