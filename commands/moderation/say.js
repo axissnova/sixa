@@ -1,5 +1,3 @@
-const { RichEmbed, Guild, DiscordAPIError, GuildMember } = require("discord.js");
-
 module.exports = {
     name: "say",
     aliases: ["bc", "broadcast"],
@@ -8,7 +6,7 @@ module.exports = {
     run: (client, message, args) => {
         message.delete();
         if(args[0])
-            message.channel.send(args.join(" "));
+            return message.channel.send(args.join(" "));
         message.channel.send("Cannot send an empty message.");
 
         /*
